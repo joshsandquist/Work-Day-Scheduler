@@ -4,7 +4,7 @@ Bootcamp Module 5 Code Refactor Challenge - Work Day Scheduler
 
 ## Installation
 
-None
+None - Runs in the browser
 
 ## Usage
 
