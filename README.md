@@ -1,5 +1,5 @@
 # Work Day Scheduler
-Module 5 Code Refactor Challenge - Work Day Scheduler
+Bootcamp Module 5 Code Refactor Challenge - Work Day Scheduler
 
 
 ## Installation
