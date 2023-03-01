@@ -27,10 +27,15 @@ $('.time-block').each(function() {
   } else if (hour > currentHour) {
     $(this).addClass('future')
   }
+  // variable to retrieve specified hour input from local storage
+  var savedInput = localStorage.getItem('hour-' + hour)
+  //if there is a value stored to the specified hour, it will retrieve it and set it to the text area
+  if(savedInput) {
+  //this.children is used to navigate from the .time-block class to the .description class
+    $(this).children('.description').val(savedInput)
+  }
 })
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
+//uses dayJs to retrieve current day of week, month, day, and year to display on page
   var currentDayEl = $('#currentDay')
   var dateToday = dayjs().format('dddd, MMMM D, YYYY')
   currentDayEl.text(dateToday)
