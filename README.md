@@ -16,6 +16,8 @@ Finally, user inputs were saved and retieved using local storage using the input
 
 ## Web link
 
-
+https://joshsandquist.github.io/Work-Day-Scheduler/
 
 ## Screenshots
+
+<img width="1512" alt="Screenshot 2023-03-01 at 10 52 18 AM" src="https://user-images.githubusercontent.com/104536533/222221765-88d5a7fa-6c04-4d33-9539-0ca31b8ea2f5.png">
